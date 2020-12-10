@@ -1,0 +1,27 @@
+:root {
+    --while-color: #fff;
+    --text-color: #000;
+    --primary-color: #015199;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gird {
+    width: 1153px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.gird {
+    display: flex;
+    flex-wrap: wrap;
+}
